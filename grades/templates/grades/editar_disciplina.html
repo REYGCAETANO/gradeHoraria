@@ -1,0 +1,35 @@
+{% extends 'grades/base.html' %}
+{% load widget_tweaks %}
+{% load staticfiles %}
+
+{% block body %}
+<div class="row">
+    <h1>Alterar dados da Disciplina</h1>
+    <form class="" action="" method="post">
+        <link href="{% static 'css/width.proj.css' %}" rel="stylesheet">
+        {% csrf_token %}
+        {% if messages %}
+        <div class="alert alert-info" role="alert">
+            {% for message in messages %}
+            {{ message }}
+            {% endfor %}
+        </div>
+        {% endif %}
+        <fieldset>
+            {{ form.non_field_errors }}
+            {% for field in form %}
+            <div class="form-group">
+                <label for="{{ field.id_for_label }}">{{ field.label }}</label>
+                {{ field|add_class:"form-control" }}
+                {% if field.errors %}
+                <div class="alert alert-danger" role="alert">{{ field.errors }}</div>
+                {% endif %}
+            </div>
+            {% endfor %}
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Salvar</button>
+            </div>
+        </fieldset>
+    </form>
+</div>
+{% endblock body %}

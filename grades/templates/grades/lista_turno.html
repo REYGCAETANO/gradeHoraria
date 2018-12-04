@@ -1,0 +1,34 @@
+{% extends 'grades/base.html' %}
+
+{% block body %}
+<h1>Turno</h1>
+<table class="table">
+    {% if messages %}
+    <div class="alert alert-info" role="alert">
+        {% for message in messages %}
+        {{ message }}
+        {% endfor %}
+    </div>
+    {% endif %}
+    <thead class="thead-dark">
+    <tr>
+        <th>Código</th>
+        <th>Turno</th>
+        <th>Dias</th>
+        <th>Aulas por dia</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for t in turno %}
+    <tr>
+        <td>{{ t.id_turno }}</td>
+        <td>{{ t.turno }}</td>
+        <td>{{ t.dias }}</td>
+        <td>{{ t.dias }}</td>
+        <td style="text-align:left"><a href="{% url 'editar_turno' t.id_turno %}" class="btn  btn-xs btn-info"><i class="fa fa-eye"></i>Editar</a></td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+<!--<a href="{% url 'novo_turno' %}" class="btn btn-primary" role="button">Adicionar Turno</a>-->
+{% endblock body %}

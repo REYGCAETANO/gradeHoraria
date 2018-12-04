@@ -1,0 +1,23 @@
+{% extends 'grades/base.html' %}
+
+{% load widget_tweaks %}
+
+<div class="row">
+    {% block body %}
+    <h1>Novo Curso</h1>
+        <form class="" action="" method="post">
+            {% csrf_token %}
+            <div class="form-group">
+                <label for="{{ form.nm_curso.id_for_label }}">Curso</label>
+                {{ form.nm_curso|add_class:"form-control" }}
+            </div>
+            <div class="form-group">
+                <label for="{{ form.sigla_curso.id_for_label }}">Sigla do Curso</label>
+                {{ form.sigla_curso|add_class:"form-control" }}
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Salvar</button>
+            </div>
+        </form>
+    {% endblock body %}
+</div>

@@ -1,0 +1,46 @@
+{% extends "grades/base.html" %}
+
+{% block body %}
+    <div class="row">
+        <h1>Grade Horária</h1>
+        {% if messages %}
+            <div class="alert alert-danger">
+            {% for message in messages %}
+                {{ message }}
+            {% endfor %}
+            </div>
+        {% endif %}
+        {% if grades %}
+        <table class="table">
+            <thead>
+            <tr>
+                <th>Curso</th>
+                <th>Turma</th>
+                <th>Disciplina</th>
+                <th>Professor</th>
+                <th>Turno</th>
+                <th colspan="2" style="text-align:center">Ações</th>
+            </tr>
+            </thead>
+            <tbody>
+                {% for g in grades %}
+                <tr>
+                    <td>{{ g.curso }}</td>
+                    <td>{{ g.turma }}</td>
+                    <td>{{ g.disciplinas }}</td>
+                    <td>{{ g.professor }}</td>
+                    <td>{{ g.turno }}</td>
+                    <td><a href="#">Editar</a></td>
+                    <td><a href="#">Excluir</a></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        {% else %}
+        <div class="alert alert-info">
+            <p>Não há grade horária disponível no momento!</p>
+        </div>
+        {% endif %}
+    </div>
+
+{% endblock body %}

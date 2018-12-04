@@ -1,0 +1,1 @@
+web: gunicorn gradeHoraria.wsgi:django-polls --log-file -

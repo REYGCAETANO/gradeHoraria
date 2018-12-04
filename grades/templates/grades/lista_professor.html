@@ -1,0 +1,39 @@
+{% extends 'grades/base.html' %}
+
+{% block body %}
+
+    <h1>Professores</h1>
+    <table class="table">
+        {% if messages %}
+        <div class="alert alert-info" role="alert">
+            {% for message in messages %}
+            {{ message }}
+            {% endfor %}
+        </div>
+        {% endif %}
+        <thead>
+            <tr>
+                <th>Código</th>
+                <th>Professor</th>
+                <th>Matrícula</th>
+                <th>Turno</th>
+                <th>Disciplina</th>
+                <th colspan="1" style="text-align:center">Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for p in professores %}
+                <tr>
+                    <td>{{ p.id_professor }}</td>
+                    <td>{{ p.nm_professor }}</td>
+                    <td>{{ p.matricula }}</td>
+                    <td>{{ p.turnos }}</td>
+                    <td>{{ p.disciplinas}}</td>
+                    <td><a href="{% url 'editar_professor' p.id_professor %}" class="btn btn-info btn-xs">Editar</a></td>
+                    <td><a href="{% url 'deleta_professor' p.id_professor %}" class="btn btn-danger btn-xs">Excluir</a></td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <a href="{% url 'novo_professor' %}" class="btn btn-primary" role="button">Adicionar Professor</a>
+{% endblock body %}

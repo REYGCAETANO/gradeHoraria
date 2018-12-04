@@ -1,0 +1,29 @@
+{% extends 'grades/base.html' %}
+
+{% block body %}
+
+    <h1>Grade Horária</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Código Curso</th>
+                <th>Código Turma</th>
+                <th>Código Disciplina</th>
+                <th>Código Professor</th>
+                <th>Código Turno</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for g in grades %}
+                <tr>
+                    <td>{{ g.cd_curso }}</td>
+                    <td>{{ g.cd_turma }}</td>
+                    <td>{{ g.cd_disciplina }}</td>
+                    <td>{{ g.cd_professor }}</td>
+                    <td>{{ g.cd_turno }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <a href="{% url 'nova_grade' %}" class="btn btn-primary" role="button">Gerar Grade</a>
+{% endblock body %}

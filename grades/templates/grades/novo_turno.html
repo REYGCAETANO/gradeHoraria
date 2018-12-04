@@ -1,0 +1,36 @@
+{% extends 'grades/base.html' %}
+
+{% load widget_tweaks %}
+{% load staticfiles %}
+
+<div class="row">
+    {% block body %}
+    <h1>Cadastrar Turno</h1>
+    <link href="{% static 'css/width.proj.css' %}" rel="stylesheet">
+        <form class="" action="" method="post">
+            {% csrf_token %}
+            <fieldset>
+                {% if messages %}
+                <div class="alert alert-danger" role="alert">
+                    {% for message in messages %}
+                        {{ message }}
+                    {% endfor %}
+                </div>
+                {% endif %}
+
+                {% for field in form %}
+                <div class="form-group">
+                    <label for="{{ field.id_for_label }}">{{ field.label }}</label>
+                    {{ field|add_class:"form-control" }}
+                        {% if field.errors %}
+                            <div class="alert alert-danger" role="alert">{{ field.errors }}</div>
+                        {% endif %}
+                </div>
+                {% endfor %}
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">Salvar</button>
+                </div>
+            </fieldset>
+        </form>
+    {% endblock body %}
+</div>

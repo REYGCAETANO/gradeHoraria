@@ -1,0 +1,103 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="GradeExata - Sistema para geração de Grade Horária">
+    <meta name="author" content="">
+
+    <title>Grade Horária</title>
+
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'css/ie10-viewport-bug-workaround.css' %}" rel="stylesheet">
+    <link href="{% static 'css/starter-template.css' %}" rel="stylesheet">
+    <link href="{% static 'css/width.proj.css' %}" rel="stylesheet">
+    <script src="{% static 'js/ie8-responsive-file-warning.js' %}"></script>
+    <script src="{% static 'js/ie-emulation-modes-warning.js' %}"></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">BASE HTML</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">GradeExata</a>
+        </div>
+         {% if user.is_authenticated%}
+          <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="/">Home</a></li>
+              <li><a href="{% url 'lista_turno' %}">Turno</a></li>
+              <li><a href="{% url 'lista_cursos' %}">Cursos</a></li>
+              <li><a href="{% url 'lista_disciplinas' %}">Disciplinas</a></li>
+              <li><a href="{% url 'lista_professor' %}">Professores</a></li>
+              <li><a href="{% url 'lista_disponibilidade' %}">Disponibilidade</a></li>
+              <li><a href="{% url 'novo_semestre' %}">Semestre</a></li>
+              <li><a href="{% url 'lista_turma' %}">Turmas</a></li>
+              <li><a href="{% url 'lista_grades' %}">Grade</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{% if user.is_authenticated %}{{ user.get_full_name|default:user.username }}{% endif %}<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+
+                  {% if user.is_staff %}
+                  <li><a href="{% url 'novo_usuario' %}">Cadastrar novo usuário</a></li>
+                  <li><a class="dropdown-item active" href="{% url 'alterar_senha' %}">Alterar a senha</a></li>
+                  <li><a href="{% url 'editar_cadastro' %}">Editar Cadastro</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="{% url 'logout_usuario' %}">Sair</a></li>
+
+                  {% else %}
+                  <li><a href="{% url 'alterar_senha' %}">Alterar a senha</a></li>
+                  <li><a href="{% url 'editar_cadastro' %}">Editar Cadastro</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="{% url 'logout_usuario' %}">Sair</a></li>
+                  {% endif %}
+          {% endif %}
+
+                </ul>
+              </li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+      <br>
+    <div class="container">
+      {% block body %}
+
+      {% endblock body %}
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="{% static 'js/vendor/jquery.min.js' %}"><\/script>')</script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/ie10-viewport-bug-workaround.js' %}"></script>
+
+<style>
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 20px;
+}
+</style>
+    <footer class="footer">
+      <div class="container">
+        <span class="text-muted">GradeExata - Sistema de geração de Grade Horária</span>
+      </div>
+    </footer>
+  </body>
+</html>

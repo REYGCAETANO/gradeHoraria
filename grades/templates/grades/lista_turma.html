@@ -1,0 +1,40 @@
+{% extends 'grades/base.html' %}
+
+{% block body %}
+
+    <h1>Turma</h1>
+    <table class="table">
+        {% if messages %}
+        <div class="alert alert-info" role="alert">
+            {% for message in messages %}
+            {{ message }}
+            {% endfor %}
+        </div>
+        {% endif %}
+        <thead>
+            <tr>
+                <th>Código Turma</th>
+                <th>Turma</th>
+                <th>Curso</th>
+                <th>Professor</th>
+                <th>Semestre</th>
+                <th colspan="1" style="text-align:center">Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for t in turmas %}
+                <tr>
+                    <td>{{ t.id_turma }}</td>
+                    <td>{{ t.ds_turma }}</td>
+                    <td>{{ t.cd_curso }}</td>
+                    <td>{{ t.cd_professor }}</td>
+                    <td>{{ t.cd_semestre }}</td>
+                    <td><a href="{% url 'editar_turma' t.id_turma %}" class="btn btn-info btn-xs">Editar</a></td>
+                    <td><a href="{% url 'deleta_turma' t.id_turma %}" class="btn btn-danger btn-xs">Excluir</a></td>
+
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <a href="{% url 'nova_turma' %}" class="btn btn-primary" role="button">Adicionar Turma</a>
+{% endblock body %}

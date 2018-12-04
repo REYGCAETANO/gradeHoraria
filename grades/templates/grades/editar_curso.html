@@ -1,0 +1,26 @@
+{% extends 'grades/base.html' %}
+
+{% load widget_tweaks %}
+
+<div class="row">
+    {% block body %}
+    <h1>Alterar dados do Curso</h1>
+    <form class="" action="" method="post">
+        {% csrf_token %}
+        {% for field in form %}
+        <div class="form-group">
+            <label for="{{ field.id_for_label }}">{{ field.label }}</label>
+            {{ field|add_class:"form-control" }}
+            {% if field.errors %}
+            <div class="alert alert-danger" role="alert">{{ field.errors }}</div>
+            {% endif %}
+        </div>
+        {% endfor %}
+
+
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary">Salvar</button>
+        </div>
+    </form>
+    {% endblock body %}
+</div>

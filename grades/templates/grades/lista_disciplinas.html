@@ -1,0 +1,36 @@
+{% extends 'grades/base.html' %}
+
+{% block body %}
+<h1>Disciplinas</h1>
+<table class="table">
+    {% if messages %}
+    <div class="alert alert-info" role="alert">
+        {% for message in messages %}
+        {{ message }}
+        {% endfor %}
+    </div>
+    {% endif %}
+    <thead class="thead-dark">
+    <tr>
+        <th>Código</th>
+        <th>Disciplina</th>
+        <th>Sigla</th>
+        <th colspan="1" style="text-align:center">Ações</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for d in disciplinas %}
+    <tr>
+        <td>{{ d.id_disciplina }}</td>
+        <td>{{ d.nm_disciplina }}</td>
+        <td>{{ d.sigla_disciplina }}</td>
+        <td style="text-align:left"><a href="{% url 'editar_disciplina' d.id_disciplina %}"
+                                       class="btn  btn-xs btn-info"><i class="fa fa-eye"></i>Editar</a></td>
+        <td style="text-align:left"><a href="{% url 'deleta_disciplina' d.id_disciplina %}"
+                                       class="btn btn-danger btn-xs"><i class="fa fa-trash"></i>Excluir</a></td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+<a href="{% url 'nova_disciplina' %}" class="btn btn-primary" role="button">Adicionar disciplina</a>
+{% endblock body %}
