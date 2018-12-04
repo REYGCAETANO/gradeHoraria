@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/grades/views.py" line="74" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6742ad8b-30d2-46b0-8403-4bf0dcd3be76" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contas/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contas/static/css/signin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contas/templates/contas/alterar_senha.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contas/templates/contas/editar_cadastro.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contas/templates/contas/login_usuario.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contas/templates/contas/novo_usuarioo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contas/templates/contas/reset_senha.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contas/templates/contas/reset_senha_confirmacao.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contas/templates/contas/reset_senha_mail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contas/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grades/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grades/mail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grades/migrations/0018_auto_20181120_2123.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grades/static/css/width.proj.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grades/templates/grades/editar_curso.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grades/templates/grades/editar_disciplina.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grades/templates/grades/editar_professor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grades/templates/grades/editar_turma.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grades/templates/grades/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grades/templates/grades/lista_cursos.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grades/templates/grades/lista_disciplinas.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grades/templates/grades/lista_disponibilidade.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grades/templates/grades/lista_grades.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grades/templates/grades/lista_professor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grades/templates/grades/lista_turma.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grades/templates/grades/nova_disponibilidade.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grades/templates/grades/nova_grade.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grades/templates/grades/novo_professor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grades/templates/grades/novo_semestre.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grades/templates/grades/novo_turno.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grades/utils.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="gradeHoraria" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gradeHoraria/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="92" column="26" selection-start-line="92" selection-start-column="17" selection-end-line="92" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>disciplinas</find>
+      <find>grades_curso_disciplinas</find>
+      <find>turma</find>
+      <find>semana</find>
+      <find>lo</find>
+      <find>TURNO</find>
+      <find>disponibilidades</find>
+      <find>disponibilidade</find>
+      <find>log</find>
+      <find>messa</find>
+      <find>curso</find>
+      <find>teste</find>
+      <find>Teste</find>
+      <find>dispo</find>
+      <find>per</find>
+      <find>HTTP</find>
+      <find>stick</find>
+      <find>link</find>
+      <find>footer</find>
+      <find>.css</find>
+      <find>s</find>
+      <find>suce</find>
+      <find>profe</find>
+      <find>PROFESS</find>
+      <find>prefetch_related</find>
+      <find>prefetch</find>
+      <find>defa</find>
+      <find>dia_semana</find>
+      <find>turno</find>
+      <find>login</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/grades/migrations/0008_auto_20181112_0211.py" />
+        <option value="$PROJECT_DIR$/grades/migrations/0009_auto_20181118_1402.py" />
+        <option value="$PROJECT_DIR$/grades/migrations/0017_auto_20181120_2112.py" />
+        <option value="$PROJECT_DIR$/contas/templates/contas/novo_usuarioo.html" />
+        <option value="$PROJECT_DIR$/grades/templates/grades/semestre.html" />
+        <option value="$PROJECT_DIR$/grades/templates/grades/editar_professor.html" />
+        <option value="$PROJECT_DIR$/grades/templates/grades/delete.html" />
+        <option value="$PROJECT_DIR$/gradeHoraria/urls.py" />
+        <option value="$PROJECT_DIR$/grades/templates/grades/professor_confirm_delete.html" />
+        <option value="$PROJECT_DIR$/gradeHoraria/settings.py" />
+        <option value="$PROJECT_DIR$/grades/static/css/starter-template.css" />
+        <option value="$PROJECT_DIR$/grades/static/css/width.proj.css" />
+        <option value="$PROJECT_DIR$/grades/templates/grades/teste.html" />
+        <option value="$PROJECT_DIR$/grades/templates/grades/nova_grade.html" />
+        <option value="$PROJECT_DIR$/grades/templates/grades/nova_disponibilidade.html" />
+        <option value="$PROJECT_DIR$/grades/migrations/0027_auto_20181128_0153.py" />
+        <option value="$PROJECT_DIR$/grades/migrations/0026_auto_20181128_0151.py" />
+        <option value="$PROJECT_DIR$/grades/migrations/0033_auto_20181128_0311.py" />
+        <option value="$PROJECT_DIR$/grades/migrations/0034_auto_20181128_0314.py" />
+        <option value="$PROJECT_DIR$/grades/templates/grades/novo_professor.html" />
+        <option value="$PROJECT_DIR$/grades/templates/grades/novo_semestre.html" />
+        <option value="$PROJECT_DIR$/grades/migrations/0036_auto_20181129_1402.py" />
+        <option value="$PROJECT_DIR$/grades/templates/grades/editar_turma.html" />
+        <option value="$PROJECT_DIR$/grades/admin.py" />
+        <option value="$PROJECT_DIR$/grades/templates/grades/novo_turno.html" />
+        <option value="$PROJECT_DIR$/grades/migrations/0037_auto_20181202_1255.py" />
+        <option value="$PROJECT_DIR$/grades/forms.py" />
+        <option value="$PROJECT_DIR$/grades/migrations/0037_auto_20181202_1319.py" />
+        <option value="$PROJECT_DIR$/grades/templates/grades/editar_turno.html" />
+        <option value="$PROJECT_DIR$/grades/templates/grades/editar_disciplina.html" />
+        <option value="$PROJECT_DIR$/grades/templates/grades/editar_indisponibilidade.html" />
+        <option value="$PROJECT_DIR$/grades/urls.py" />
+        <option value="$PROJECT_DIR$/grades/templates/grades/lista_turno.html" />
+        <option value="$PROJECT_DIR$/grades/migrations/0038_auto_20181202_1345.py" />
+        <option value="$PROJECT_DIR$/grades/migrations/0039_auto_20181202_1348.py" />
+        <option value="$PROJECT_DIR$/grades/migrations/0041_auto_20181203_2045.py" />
+        <option value="$PROJECT_DIR$/grades/templates/grades/nova_turma.html" />
+        <option value="$PROJECT_DIR$/grades/views.py" />
+        <option value="$PROJECT_DIR$/grades/templates/grades/lista_grades.html" />
+        <option value="$PROJECT_DIR$/grades/templates/grades/lista_disponibilidade.html" />
+        <option value="$PROJECT_DIR$/grades/templates/grades/lista_turma.html" />
+        <option value="$PROJECT_DIR$/grades/templates/grades/lista_professor.html" />
+        <option value="$PROJECT_DIR$/grades/templates/grades/lista_disciplinas.html" />
+        <option value="$PROJECT_DIR$/grades/templates/grades/lista_cursos.html" />
+        <option value="$PROJECT_DIR$/grades/migrations/0040_auto_20181203_2034.py" />
+        <option value="$PROJECT_DIR$/grades/models.py" />
+        <option value="$PROJECT_DIR$/grades/migrations/0041_auto_20181203_2237.py" />
+        <option value="$PROJECT_DIR$/grades/templates/grades/base.html" />
+        <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="gradeHoraria" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gradeHoraria" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gradeHoraria" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gradeHoraria" type="462c0819:PsiDirectoryNode" />
+              <item name="gradeHoraria" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/manage.py" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="gradeHoraria" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="gradeHoraria" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Reyg\ambiente_virtual\gradeHoraria\grades\templates\grades" />
+      <recent name="C:\Users\Reyg\ambiente_virtual\gradeHoraria\grades\static\css" />
+      <recent name="C:\Users\Reyg\ambiente_virtual\gradeHoraria\contas\static\css" />
+      <recent name="C:\Users\Reyg\ambiente_virtual\gradeHoraria\grades\static\js" />
+      <recent name="C:\Users\Reyg\ambiente_virtual\gradeHoraria\contas\templates\contas" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Reyg\ambiente_virtual\gradeHoraria\templates" />
+      <recent name="C:\Users\Reyg\ambiente_virtual\gradeHoraria\grades\templates\grades" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.makemigrations">
+    <configuration name="makemigrations" type="PythonConfigurationType" factoryName="Python">
+      <module name="gradeHoraria" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Reyg\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="makemigrations" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="migrate" type="PythonConfigurationType" factoryName="Python">
+      <module name="gradeHoraria" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="migrate" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="runserver" type="PythonConfigurationType" factoryName="Python">
+      <module name="gradeHoraria" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Reyg\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="gradeHoraria" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/grades" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/grades/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.migrate" />
+      <item itemvalue="Python.makemigrations" />
+      <item itemvalue="Python.runserver" />
+      <item itemvalue="Python.views" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.views" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6742ad8b-30d2-46b0-8403-4bf0dcd3be76" name="Default" comment="" />
+      <created>1538456313758</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1538456313758</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Alterações na aplicação">
+      <created>1543912904777</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1543912904777</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4940048" visible="true" weight="0.22693452" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49255952" weight="0.32838285" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5967262" side_tool="true" weight="0.32343236" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.3690476" weight="0.3778878" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.40401787" visible="true" weight="0.32838285" />
+      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.53050596" weight="0.6006601" />
+      <window_info id="Structure" order="1" sideWeight="0.5059952" side_tool="true" weight="0.22693452" />
+      <window_info anchor="bottom" x="11" y="197" width="1344" height="334" id="Terminal" order="9" sideWeight="0.59598213" side_tool="true" visible="true" weight="0.32838285" />
+      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.76785713" weight="0.4240924" />
+      <window_info id="Favorites" order="2" sideWeight="0.5061425" side_tool="true" weight="0.22693452" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection Results" order="8" weight="0.32838285" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
+    </layout>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Alterações na aplicação" />
+    <option name="LAST_COMMIT_MESSAGE" value="Alterações na aplicação" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="50" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/grades/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5763">
+          <caret line="339" column="29" selection-start-line="339" selection-start-column="29" selection-end-line="339" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grades/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="64" column="24" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/django/utils/deprecation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/django/core/handlers/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="152" selection-start-line="152" selection-end-line="152" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/django/contrib/staticfiles/handlers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/wsgiref/handlers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="137" selection-start-line="137" selection-end-line="137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/django/core/servers/basehttp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="153" selection-start-line="153" selection-end-line="153" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/socketserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="642" selection-start-line="642" selection-end-line="642" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="863" selection-start-line="863" selection-end-line="863" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grades/templates/grades/novo_professor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grades/templates/grades/editar_professor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="33" lean-forward="true" selection-end-line="35" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grades/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grades/migrations/0036_auto_20181129_1402.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grades/migrations/0037_auto_20181202_1257.py" />
+    <entry file="file://$PROJECT_DIR$/grades/migrations/0037_auto_20181202_1319.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grades/templates/grades/novo_turno.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grades/templates/grades/editar_turma.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grades/templates/grades/editar_disciplina.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/django/template/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="455" selection-start-line="455" selection-end-line="455" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grades/templates/grades/editar_indisponibilidade.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grades/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="30" column="83" selection-start-line="30" selection-start-column="83" selection-end-line="30" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/django/db/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/django/forms/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8976" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grades/templates/grades/editar_turno.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grades/migrations/0038_auto_20181202_1345.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grades/migrations/0039_auto_20181202_1348.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grades/migrations/0041_auto_20181203_2045.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/django/db/models/manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="191" selection-start-line="191" selection-end-line="191" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/django/contrib/auth/decorators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/django/core/handlers/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/django/core/handlers/exception.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grades/templates/grades/lista_turno.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grades/templates/grades/nova_turma.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grades/templates/grades/novo_semestre.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grades/templates/grades/lista_disponibilidade.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grades/templates/grades/lista_professor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grades/templates/grades/lista_grades.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grades/templates/grades/lista_disciplinas.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grades/templates/grades/lista_cursos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grades/migrations/0041_auto_20181203_2237.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grades/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="168" selection-start-line="168" selection-end-line="168" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grades/templates/grades/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grades/migrations/0040_auto_20181203_2034.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grades/templates/grades/lista_turma.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grades/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="339" column="29" selection-start-line="339" selection-start-column="29" selection-end-line="339" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grades/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="64" column="24" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradeHoraria/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="92" column="26" selection-start-line="92" selection-start-column="17" selection-end-line="92" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -90,7 +90,7 @@ DATABASES = {
         'NAME': 'db_gradehoraria',
         'USER': 'root',
         'PASSWORD': '30112011Pr',
-        'HOST': 'localhost',   # Or an IP Address that your DB is hosted on
+        'HOST': '',   # Or an IP Address that your DB is hosted on
         'PORT': '3306',
     }
 }
